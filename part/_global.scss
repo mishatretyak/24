@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font:{
+        family:$font;
+        size:24px
+    }
+    color: $fucsia;
+    line-height: 1.5em;
+}
+.container{
+    width: 940px;
+    margin: 0 auto;
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
